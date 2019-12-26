@@ -507,7 +507,7 @@ iframe {
 ///////////////////////////////////////////////////////////
 */
 .header1 {
-  height: 110px;
+  height: 80px;
   transition: all 0.3s;
 }
 
@@ -696,7 +696,8 @@ li.sale-noti > a {
   top:0;
   left:100%;
   width: 225px;
-  background-color: #222222;
+  /* 分類menu顏色 */
+  background-color: green;
   opacity: 0;
   visibility: hidden;
   padding-top: 10px;
