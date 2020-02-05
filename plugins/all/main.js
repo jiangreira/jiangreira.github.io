@@ -109,7 +109,7 @@
 			lineWidth: 4,
 			lineCap: 'butt',
 			barColor: '#C92847',
-			trackColor:	"#f5f5f5",
+			trackColor:	"#d1d4d7",
 			size: 160,
 			animate: 1000
 		});
@@ -140,8 +140,7 @@
 		goToTop();
 		loaderPage();
 		fullHeight();
-		// parallax();
-		// pieChart();
+		pieChart();
 		skillsWayPoint();
 	});
 
