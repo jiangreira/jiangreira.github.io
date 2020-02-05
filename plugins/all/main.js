@@ -116,8 +116,8 @@
 	};
 
 	var skillsWayPoint = function() {
-		if ($('c-skills').length > 0 ) {
-			$('c-skills').waypoint( function( direction ) {
+		if ($('#c-skills').length > 0 ) {
+			$('#c-skills').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 					setTimeout( pieChart , 400);					
@@ -140,7 +140,6 @@
 		goToTop();
 		loaderPage();
 		fullHeight();
-		pieChart();
 		skillsWayPoint();
 	});
 
