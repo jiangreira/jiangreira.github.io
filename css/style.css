@@ -201,12 +201,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#c-header .display-tc .fh5co-social-icons li svg,
-.c-cover .display-tc .fh5co-social-icons li svg {
+#c-header .display-tc .social-icons li svg,
+.c-cover .display-tc .social-icons li svg {
   color: #fff;
 }
-#c-header .display-tc .fh5co-social-icons li a svg,
-.c-cover .display-tc .fh5co-social-icons li a svg {
+#c-header .display-tc .social-icons li a svg,
+.c-cover .display-tc .social-icons li a svg {
   font-size: 30px;
 }
 
@@ -270,11 +270,11 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
 }
 
-.fh5co-social-icons {
+.social-icons {
   margin: 0;
   padding: 0;
 }
-.fh5co-social-icons li {
+.social-icons li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
 }
-.fh5co-social-icons li a {
+.social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -292,15 +292,15 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 10px;
   padding-right: 10px;
 }
-.fh5co-social-icons li a i {
+.social-icons li a i {
   font-size: 20px;
 }
 
-#fh5co-about .fh5co-social-icons {
+#fh5co-about .social-icons {
   margin: 0;
   padding: 0;
 }
-#fh5co-about .fh5co-social-icons li {
+#fh5co-about .social-icons li {
   padding: 0;
   list-style: none;
   display: -moz-inline-stack;
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
 }
-#fh5co-about .fh5co-social-icons li a {
+#fh5co-about .social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -321,10 +321,10 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
-#fh5co-about .fh5co-social-icons li a i {
+#fh5co-about .social-icons li a i {
   font-size: 20px;
 }
-#fh5co-about .fh5co-social-icons li a:hover {
+#fh5co-about .social-icons li a:hover {
   background: #C92847;
 }
 
@@ -1141,7 +1141,7 @@ input[type="text"] {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #fff;
+  background: #C92847;
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1149,7 +1149,7 @@ input[type="text"] {
 }
 .work .desc h3 {
   font-size: 20px;
-
+  color: white;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
@@ -1157,7 +1157,7 @@ input[type="text"] {
 }
 .work .desc span {
   display: block;
-  color: #999999;
+  color: white;
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -1167,15 +1167,21 @@ input[type="text"] {
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.8);
+    
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    color: black !important;
+    text-shadow: 5px 5px 10px !important; 
+    font-size: 1.5rem !important;
   }
   .work .desc span {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    color: black !important;
+    text-shadow: 10px 10px 15px !important; 
   }
 }
 .work:hover .desc {
